@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB5018F1A11A1CA00BD55DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5018E1A11A1CA00BD55DB /* main.m */; };
+		3FB501921A11A1CA00BD55DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB501911A11A1CA00BD55DB /* AppDelegate.m */; };
+		3FB501951A11A1CA00BD55DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB501941A11A1CA00BD55DB /* ViewController.m */; };
+		3FB501981A11A1CA00BD55DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB501961A11A1CA00BD55DB /* Main.storyboard */; };
+		3FB5019A1A11A1CA00BD55DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB501991A11A1CA00BD55DB /* Images.xcassets */; };
+		3FB5019D1A11A1CA00BD55DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5019B1A11A1CA00BD55DB /* LaunchScreen.xib */; };
+		3FB501A91A11A1CA00BD55DB /* GoogleAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB501A81A11A1CA00BD55DB /* GoogleAnimationTests.m */; };
+		3FB501B41A11A1F500BD55DB /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB501B31A11A1F500BD55DB /* AnimationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB501A31A11A1CA00BD55DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB501811A11A1CA00BD55DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB501881A11A1CA00BD55DB;
+			remoteInfo = GoogleAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FB501891A11A1CA00BD55DB /* GoogleAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB5018D1A11A1CA00BD55DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB5018E1A11A1CA00BD55DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FB501901A11A1CA00BD55DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FB501911A11A1CA00BD55DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FB501931A11A1CA00BD55DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FB501941A11A1CA00BD55DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FB501971A11A1CA00BD55DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB501991A11A1CA00BD55DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FB5019C1A11A1CA00BD55DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3FB501A21A11A1CA00BD55DB /* GoogleAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB501A71A11A1CA00BD55DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB501A81A11A1CA00BD55DB /* GoogleAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleAnimationTests.m; sourceTree = "<group>"; };
+		3FB501B21A11A1F500BD55DB /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		3FB501B31A11A1F500BD55DB /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB501861A11A1CA00BD55DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB5019F1A11A1CA00BD55DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB501801A11A1CA00BD55DB = {
+			isa = PBXGroup;
+			children = (
+				3FB5018B1A11A1CA00BD55DB /* GoogleAnimation */,
+				3FB501A51A11A1CA00BD55DB /* GoogleAnimationTests */,
+				3FB5018A1A11A1CA00BD55DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB5018A1A11A1CA00BD55DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB501891A11A1CA00BD55DB /* GoogleAnimation.app */,
+				3FB501A21A11A1CA00BD55DB /* GoogleAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB5018B1A11A1CA00BD55DB /* GoogleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3FB501901A11A1CA00BD55DB /* AppDelegate.h */,
+				3FB501911A11A1CA00BD55DB /* AppDelegate.m */,
+				3FB501931A11A1CA00BD55DB /* ViewController.h */,
+				3FB501941A11A1CA00BD55DB /* ViewController.m */,
+				3FB501961A11A1CA00BD55DB /* Main.storyboard */,
+				3FB501991A11A1CA00BD55DB /* Images.xcassets */,
+				3FB5019B1A11A1CA00BD55DB /* LaunchScreen.xib */,
+				3FB5018C1A11A1CA00BD55DB /* Supporting Files */,
+				3FB501B21A11A1F500BD55DB /* AnimationView.h */,
+				3FB501B31A11A1F500BD55DB /* AnimationView.m */,
+			);
+			path = GoogleAnimation;
+			sourceTree = "<group>";
+		};
+		3FB5018C1A11A1CA00BD55DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5018D1A11A1CA00BD55DB /* Info.plist */,
+				3FB5018E1A11A1CA00BD55DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FB501A51A11A1CA00BD55DB /* GoogleAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB501A81A11A1CA00BD55DB /* GoogleAnimationTests.m */,
+				3FB501A61A11A1CA00BD55DB /* Supporting Files */,
+			);
+			path = GoogleAnimationTests;
+			sourceTree = "<group>";
+		};
+		3FB501A61A11A1CA00BD55DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB501A71A11A1CA00BD55DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB501881A11A1CA00BD55DB /* GoogleAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB501AC1A11A1CA00BD55DB /* Build configuration list for PBXNativeTarget "GoogleAnimation" */;
+			buildPhases = (
+				3FB501851A11A1CA00BD55DB /* Sources */,
+				3FB501861A11A1CA00BD55DB /* Frameworks */,
+				3FB501871A11A1CA00BD55DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleAnimation;
+			productName = GoogleAnimation;
+			productReference = 3FB501891A11A1CA00BD55DB /* GoogleAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB501A11A11A1CA00BD55DB /* GoogleAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB501AF1A11A1CA00BD55DB /* Build configuration list for PBXNativeTarget "GoogleAnimationTests" */;
+			buildPhases = (
+				3FB5019E1A11A1CA00BD55DB /* Sources */,
+				3FB5019F1A11A1CA00BD55DB /* Frameworks */,
+				3FB501A01A11A1CA00BD55DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB501A41A11A1CA00BD55DB /* PBXTargetDependency */,
+			);
+			name = GoogleAnimationTests;
+			productName = GoogleAnimationTests;
+			productReference = 3FB501A21A11A1CA00BD55DB /* GoogleAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB501811A11A1CA00BD55DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = RichInfo;
+				TargetAttributes = {
+					3FB501881A11A1CA00BD55DB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3FB501A11A11A1CA00BD55DB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3FB501881A11A1CA00BD55DB;
+					};
+				};
+			};
+			buildConfigurationList = 3FB501841A11A1CA00BD55DB /* Build configuration list for PBXProject "GoogleAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB501801A11A1CA00BD55DB;
+			productRefGroup = 3FB5018A1A11A1CA00BD55DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB501881A11A1CA00BD55DB /* GoogleAnimation */,
+				3FB501A11A11A1CA00BD55DB /* GoogleAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB501871A11A1CA00BD55DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB501981A11A1CA00BD55DB /* Main.storyboard in Resources */,
+				3FB5019D1A11A1CA00BD55DB /* LaunchScreen.xib in Resources */,
+				3FB5019A1A11A1CA00BD55DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB501A01A11A1CA00BD55DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB501851A11A1CA00BD55DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB501951A11A1CA00BD55DB /* ViewController.m in Sources */,
+				3FB501B41A11A1F500BD55DB /* AnimationView.m in Sources */,
+				3FB501921A11A1CA00BD55DB /* AppDelegate.m in Sources */,
+				3FB5018F1A11A1CA00BD55DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB5019E1A11A1CA00BD55DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB501A91A11A1CA00BD55DB /* GoogleAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB501A41A11A1CA00BD55DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB501881A11A1CA00BD55DB /* GoogleAnimation */;
+			targetProxy = 3FB501A31A11A1CA00BD55DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FB501961A11A1CA00BD55DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB501971A11A1CA00BD55DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB5019B1A11A1CA00BD55DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB5019C1A11A1CA00BD55DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB501AA1A11A1CA00BD55DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FB501AB1A11A1CA00BD55DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB501AD1A11A1CA00BD55DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GoogleAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FB501AE1A11A1CA00BD55DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GoogleAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FB501B01A11A1CA00BD55DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleAnimation.app/GoogleAnimation";
+			};
+			name = Debug;
+		};
+		3FB501B11A11A1CA00BD55DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleAnimation.app/GoogleAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB501841A11A1CA00BD55DB /* Build configuration list for PBXProject "GoogleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB501AA1A11A1CA00BD55DB /* Debug */,
+				3FB501AB1A11A1CA00BD55DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB501AC1A11A1CA00BD55DB /* Build configuration list for PBXNativeTarget "GoogleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB501AD1A11A1CA00BD55DB /* Debug */,
+				3FB501AE1A11A1CA00BD55DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB501AF1A11A1CA00BD55DB /* Build configuration list for PBXNativeTarget "GoogleAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB501B01A11A1CA00BD55DB /* Debug */,
+				3FB501B11A11A1CA00BD55DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB501811A11A1CA00BD55DB /* Project object */;
+}
